@@ -13,9 +13,9 @@ ssh_options[:auth_methods] = ['publickey']
 
 set :scm, :git
 
-set :user, 'software-consultant.net'
+set :user, 'redmine'
 set :domain, 'v4.software-consultant.net'
-set :deploy_to, '/home/software-consultant.net'
+set :deploy_to, '/home/redmine'
 
 server domain, :app, :web
 role :app, domain
