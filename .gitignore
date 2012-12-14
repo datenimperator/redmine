@@ -27,6 +27,7 @@
 /vendor/cache
 /vendor/rails
 *.rbc
+*.sublime-*
 
 /.bundle
 /Gemfile.lock
